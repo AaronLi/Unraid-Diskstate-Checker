@@ -9,6 +9,10 @@ Useful environment variables:
 
 default communication port for the server is on port 8000
 
+Uses Gunicorn (very lightly) as a WSGI server and Flask as the backend.  
+Data collection is provided through Mechanize  
+Uses the [Unraid JSON API](https://forums.unraid.net/topic/86646-plugin-unraid-json-api/)
+
 <details>
   <summary>
     Some useful docker commands for the future
